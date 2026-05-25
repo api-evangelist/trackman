@@ -1,0 +1,177 @@
+aid: trackman
+name: TrackMan
+description: >-
+  TrackMan A/S is a Danish sports-technology company (headquartered in Vedbaek,
+  Denmark) that builds Doppler radar and optically tracked launch monitors,
+  simulator software, and data platforms for golf, baseball, football, and US
+  football. Its hardware lineage includes the TrackMan 4 outdoor/indoor launch
+  monitor, TrackMan iO indoor launch monitor, the V3 stadium ball-tracking
+  system used by every Major League Baseball club, and the portable B1
+  baseball launch monitor. On the software side TrackMan operates TrackMan
+  Range (a connected driving-range platform), Virtual Golf 3 (the simulator
+  rendering and gameplay engine), the TrackMan Golf App for performance and
+  social play, TrackMan 360 for golf-club business operations, and a cloud
+  data platform that aggregates measurements across products. TrackMan exposes
+  several developer-facing surfaces — a TrackMan Cloud GraphQL API at
+  api.golf.trackman.com/graphql for tournaments and facility data, the
+  TrackMan Range REST API at docs.trackmanrange.com for range/bay/session
+  integration, a device-local TM4 WebSocket protocol for receiving live shot
+  measurements over LAN/UPnP from a TrackMan 4 unit, and the TrackMan
+  Baseball Data API (Swagger-documented, OAuth-client + username/password)
+  for ingesting V3 stadium and B1 portable measurements and media. The
+  TrackMan public GitHub organization hosts internal Unity tooling rather
+  than client SDKs, and most developer access is partner-gated through
+  TrackMan Sports Solutions or the Golf B2B program. The commercial model is
+  hardware sales plus tiered software subscriptions (TrackMan Range,
+  TrackMan 360, V3 Cloud) sold direct to teams, leagues, ranges, and
+  consumers.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Sports
+  - Sports Technology
+  - Golf
+  - Baseball
+  - Football
+  - Tennis
+  - Launch Monitor
+  - Doppler Radar
+  - Ball Tracking
+  - Simulator
+  - Driving Range
+  - Player Development
+  - Performance Analytics
+  - Stadium Tracking
+  - Hardware
+  - GraphQL
+  - WebSocket
+url: https://raw.githubusercontent.com/api-evangelist/trackman/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.trackman.com
+  - type: Portal
+    url: https://www.trackman.com
+  - type: Login
+    url: https://www.trackman.com/login
+  - type: SignUp
+    url: https://portal.trackmangolf.com
+  - type: Documentation
+    name: TrackMan Documentation Hub
+    url: https://tm-docs-dev.trackmangolfdev.com/
+  - type: Documentation
+    name: TrackMan TM4 Device API (WebSocket)
+    url: https://tm-docs-dev.trackmangolfdev.com/TrackMan_TM4_API/
+  - type: Documentation
+    name: TrackMan Cloud GraphQL API
+    url: https://dr-cloud-api-docs-dev.trackmangolfdev.com/graphql/graphql/
+  - type: Documentation
+    name: TrackMan Range API Docs
+    url: https://docs.trackmanrange.com/
+  - type: Documentation
+    name: TrackMan Range API — Authentication (OpenID Connect / OAuth 2.0)
+    url: https://docs.trackmanrange.com/authentication/intro/
+  - type: Documentation
+    name: TrackMan Range API — Player Session — Simulate Shot
+    url: https://docs.trackmanrange.com/player-session/simulate-shot/
+  - type: Documentation
+    name: TrackMan Range API — Player Session — Measurements
+    url: https://docs.trackmanrange.com/player-session/measurements/
+  - type: Documentation
+    name: TrackMan Baseball Data API Introduction (V3 + Portable B1)
+    url: https://support.trackmanbaseball.com/hc/en-us/articles/5089419125403-Data-Data-API-Introduction
+  - type: Documentation
+    name: TrackMan Baseball V3 Stadium Data Feeds
+    url: https://support.trackmanbaseball.com/hc/en-us/articles/22330153161755-Data-V3-Stadium-Data-Feeds
+  - type: Documentation
+    name: TrackMan Baseball B1 Portable App — Live Play-by-Play Data Feed
+    url: https://support.trackmanbaseball.com/hc/en-us/articles/5089771759003-B1-B1-Portable-App-TrackMan-Data-Feeds-Live-Play-by-Play-Feed-for-Portable-B1
+  - type: Login
+    name: Developer / Dev Environment Login
+    url: https://dev-login.trackman.com/
+  - type: AuthenticationProvider
+    name: TrackMan Identity (OAuth 2.0 / OpenID Connect)
+    url: https://login.trackman.com/
+  - type: GraphQL
+    name: TrackMan Cloud GraphQL Endpoint
+    url: https://api.golf.trackman.com/graphql
+  - type: Product
+    name: TrackMan Golf
+    url: https://www.trackman.com/golf
+  - type: Product
+    name: TrackMan 4
+    url: https://www.trackman.com/golf/launch-monitors/trackman-4
+  - type: Product
+    name: TrackMan iO
+    url: https://www.trackman.com/golf/launch-monitors/trackman-io
+  - type: Product
+    name: TrackMan Range
+    url: https://www.trackman.com/golf/trackman-range
+  - type: Product
+    name: TrackMan Golf App
+    url: https://www.trackman.com/golf/trackman-app
+  - type: Product
+    name: TrackMan 360
+    url: https://www.trackman.com/golf/trackman-360
+  - type: Product
+    name: Virtual Golf 3 Simulator
+    url: https://www.trackman.com/golf/simulators
+  - type: Product
+    name: TrackMan Baseball
+    url: https://www.trackman.com/baseball
+  - type: Product
+    name: TrackMan Baseball V3 Game Tracking
+    url: https://www.trackman.com/baseball/V3-Game-Tracking
+  - type: Product
+    name: TrackMan Baseball V3 Software
+    url: https://www.trackman.com/baseball/V3-Game-Tracking/software
+  - type: Product
+    name: TrackMan Baseball Portable B1
+    url: https://www.trackman.com/baseball/portable-b1
+  - type: Product
+    name: TrackMan Football
+    url: https://www.trackman.com/football
+  - type: Product
+    name: TrackMan US Football
+    url: https://www.trackman.com/us-football
+  - type: Support
+    name: TrackMan Golf Help Center
+    url: https://trackmangolf.com/support
+  - type: Support
+    name: TrackMan Baseball Support
+    url: https://support.trackmanbaseball.com/
+  - type: Support
+    url: https://www.trackman.com/contact
+  - type: Training
+    name: TrackMan University
+    url: https://trackmanuniversity.com/
+  - type: Blog
+    url: https://www.trackman.com/blog
+  - type: Newsroom
+    url: https://www.trackman.com/news
+  - type: Careers
+    url: https://www.trackman.com/careers
+  - type: GitHubOrganization
+    url: https://github.com/TrackMan
+  - type: Twitter
+    url: https://twitter.com/TrackManGolf
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/trackman
+  - type: YouTube
+    url: https://www.youtube.com/@TrackManGolf
+  - type: Instagram
+    url: https://www.instagram.com/trackmangolf/
+  - type: Facebook
+    url: https://www.facebook.com/TrackManGolf
+  - type: TermsOfService
+    url: https://www.trackman.com/legal/terms
+  - type: PrivacyPolicy
+    url: https://www.trackman.com/legal/privacy
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
