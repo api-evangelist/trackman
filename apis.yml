@@ -59,7 +59,7 @@ common:
     url: https://www.trackman.com
   - type: Login
     url: https://www.trackman.com/login
-  - type: SignUp
+  - type: Signup
     url: https://portal.trackmangolf.com
   - type: Documentation
     name: TrackMan Documentation Hub
