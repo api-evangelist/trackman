@@ -2,18 +2,14 @@
   "repo": "trackman",
   "feeds": [
     {
-      "source": "https://www.trackman.com/blog",
-      "feed_url": "",
-      "saved": 1,
-      "method": "agent-scrape"
-    },
-    {
       "source": "https://trackmanuniversity.com/",
+      "feed_url": "https://trackmanuniversity.com/",
+      "title": "",
       "saved": 0,
-      "error": "not a blog feed url"
+      "method": "none"
     }
   ],
   "post_count": 1,
-  "fetched": "2026-06-27T13:16:35Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "agent_pulled": "2026-06-27"
 }
