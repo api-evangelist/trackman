@@ -1,1 +1,0 @@
-# TrackMan GraphQL API
